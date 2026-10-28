@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.anmol {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.priyanshu {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.priyanshu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.priyanshu:hover {
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: beige;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.sub-div {
+    background-color: antiquewhite;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.paraggraph {
+    background-color: antiquewhite;
+    line-height: 1.8;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.paraggraph:hover {
+    transform: scale(1.02);
+}
+
+.projects-div,
+.food-div,
+.contact-div {
+    background-color: beige;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.project-cards,
+.food-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.project-card,
+.food-card {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 200px;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover,
+.food-card:hover {
+    transform: scale(1.04);
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-icon {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: antiquewhite;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-btn:hover {
+    background-color: #ffd8a8;
+    transform: scale(1.06);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+}
