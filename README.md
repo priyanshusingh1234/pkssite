@@ -1,24 +1,19 @@
-# Priyanshu Singh's Personal Site 
+# Hii I am Priyanshu Singh , A student from india.
 
-Welcome to my personal website built with HTML5, CSS3, and Font Awesome icons.
+Welcome to my personal website built with HTML5, CSS3, and Font Awesome icons. Made Using pure HTML and CSS.
 
-##  Features
-- **Profile / About Me**: Brief introduction with profile photo.
-- **Featured Projects**: Showcase of web development projects.
-- **My Favourite Food**: Interactive cards highlighting favorite foods with icons.
-- **Contact**: Quick-access links to reach out via Email and GitHub.
-- **Smooth Navigation**: One-click jump links across sections.
+This site offers a single page design with multiple sections. 
+#In contact tab you can email me and 
+#In my projects you can see my made projects although i have not given link but if required i can.
+#In the footer section i have added my github link and it was made using font awesome icons .
+#The whole website follows a set of colours which i dfined in css to make my work easy.
 
-## 💻 Tech Stack
-- HTML5
-- CSS3
-- Font Awesome 6
-How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/priyanshusingh1234/pkssite.git
-   ```
-2. Open `index.html` in your web browser.
+## How to use ?
+Want to use it ? Follow the steps:-
+```
+git clone [repo url ]
+```
+Then right click on html file and open with liveserver. 
+#It will lunch beautifully.
 
----
-© 2026 Priyanshu Singh.
+##Note - i used the project images from internet.
